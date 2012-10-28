@@ -13,5 +13,10 @@ These layouts are designed only for use with Customer.io. We use the open source
 
 ### Layouts 
 
-* Basic Zen
-* Light
+#### Basic Zen
+
+![Basic zen screenshot](https://raw.github.com/customerio/skins/master/BasicZen/basic_zen_screenshot.png)
+
+#### Light
+
+![Light Screenshot](https://raw.github.com/customerio/skins/master/Light/light_screenshot.png)
