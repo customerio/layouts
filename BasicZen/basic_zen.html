@@ -18,9 +18,9 @@
   <body>
     <!-- We'll replace this content tag with whatever you write in your email  -->
     {{ content }}
+    <p class="unsubscribe">-------<br/>
+      Don't want to receive amazing emails from us? 
+      <a href="{% unsubscribe_url %}">Unsubscribe</a>
+    </p>
   </body>
-  <p class="unsubscribe">-------<br/>
-    Don't want to receive amazing emails from us? 
-    <a href="{% unsubscribe_url %}">Unsubscribe</a>
-  </p>
 </html>
