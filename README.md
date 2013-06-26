@@ -13,6 +13,10 @@ These layouts are designed only for use with Customer.io. We use the open source
 
 ### Layouts 
 
+#### Modern
+
+![Customer.io Modern](http://i.imgur.com/qYwsyBm.png)
+
 #### Basic Zen
 
 ![Basic zen screenshot](https://raw.github.com/customerio/skins/master/BasicZen/basic_zen_screenshot.png)
