@@ -1,0 +1,73 @@
+---
+subject: Newsletter Subject
+---
+<container class="outer-container">
+  <spacer size="32"></spacer>
+
+  <row>
+    <columns small="12">
+      <center>
+        <!-- To add your logo image, modify the src here. -->
+        <img src="http://userimg.customeriomail.com/pDClEpgR2mG7dwLF0DAF_logo.png">
+      </center>
+    </columns>
+  </row>
+
+  <spacer size="24"></spacer>
+
+  <container>
+
+    <spacer size="32"></spacer>
+    
+    <row>
+      <columns small="12">
+      	<center>
+  	    	<h1 class="text-center">Hello, from Customer.io!</h1>
+  	    </center>
+      </columns>
+    </row>
+
+    <row>
+      <columns small="12">
+        <wrapper>
+          <!-- We'll replace this content tag with whatever you write in your email -->
+          <img src="https://s3.amazonaws.com/fast.customer.io/email-templates/your_content_here.png">
+        </wrapper>
+      </columns>
+    </row>
+
+  </container>
+
+  <row class="footer">
+    <columns>
+
+      <spacer size="32"></spacer>
+
+      <center>
+        {{> social}}
+      </center>
+
+      <spacer size="32"></spacer>
+
+      <!-- Your copyright -->
+      <p class="text-center copyright"><small>@2017 [[YOUR COMPANY NAME HERE]], All rights reserved.</small></p>
+      <p class="text-center"><small>Catchy company tagline or attention grabbing statement.</small></p>
+
+      <spacer size="32"></spacer>
+
+      <center>
+        <!--to change the color of this link, find the COLORS section in the CSS overrides above! -->
+        <a class="text-center untracked" href="{% unsubscribe_url %}"><small>Unsubscribe from future emails like these.</small></a>
+      </center>
+
+      <spacer size="32"></spacer>
+
+      <center>
+        <b class="text-center"><small>You can find us here:</small></b>
+      </center>
+      <spacer size="5"></spacer>
+      <!-- Your address -->
+      <p class="text-center"><small>[[YOUR ADDRESS HERE]]</small></p>
+    </columns>
+  </row>
+</container>

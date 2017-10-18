@@ -1,0 +1,31 @@
+.container.outer-container {
+	background-color: $light-gray;
+}
+
+.container {
+	border-radius: 10px;
+}
+
+h1 {
+	font-weight: 700;
+}
+
+.footer {
+	p {
+		margin-bottom: 5px;
+		Margin-bottom: 5px;
+	}
+
+	p.copyright {
+		font-style: italic;
+	}
+
+	a {
+		color: $medium-gray;
+		text-decoration: underline;
+		&:hover {
+			cursor: pointer;
+			color: $primary-color;
+		}
+	}
+}

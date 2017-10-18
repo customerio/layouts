@@ -1,0 +1,77 @@
+---
+subject: Menu
+---
+<container class="header">
+	<spacer size="24"></spacer>
+
+	<row>
+	  <columns small="12">
+	    <center>
+	    	<!-- To add your logo image, modify the src here. -->
+	      <img src="http://userimg.customeriomail.com/pDClEpgR2mG7dwLF0DAF_logo.png">
+	    </center>
+	  </columns>
+	</row>
+
+
+  <row>
+    <columns small="12">
+    	<menu class="main-menu small-vertical">
+    		<!-- make sure to add correct titles and links for all your menu items! -->
+			  <item href="#">Account</item>
+			  <item href="#">Shop</item>
+			  <item href="#">Invite</item>
+			  <item href="#">My Cart</item>
+			</menu>
+    </columns>
+  </row>
+</container>
+
+<container class="content">
+  <row>
+    <columns small="12">
+      <wrapper>
+      	<!-- We'll replace this content tag with whatever you write in your email -->
+        <img src="https://s3.amazonaws.com/fast.customer.io/email-templates/your_content_here.png">
+      </wrapper>
+    </columns>
+  </row>
+</container>
+
+<container class="download-app">
+  <row>
+  	<columns small="3" large="4"></columns>
+    <columns small="6" large="4">
+  		<center>
+  			<!-- make sure to add a link to the app store icon! -->
+  			<a href="#">
+	        <img src="http://userimg.customeriomail.com/B8vpKVBuS7mnEvYH2YRa_download_app_220.png">
+	      </a>
+    	</center>
+    </columns>
+    <columns small="3" large="4"></columns>
+  </row>
+</container>
+
+<container class="footer">
+	<row>
+	  <columns>
+
+	    <spacer size="22"></spacer>
+
+	    <center>
+	      {{> social}}
+	    </center>
+
+	    <spacer size="20"></spacer>
+
+	    <p class="text-center"><small>If you no longer wish to receive emails from [[YOUR COMPANY NAME HERE]], you can unsubscribe <a class="untracked" href="{% unsubscribe_url %}">here</a>.</small></p>
+
+	    <spacer size="25"></spacer>
+	    <!-- Your copyright -->
+	    <p class="text-center copyright"><small>@2017 [[YOUR COMPANY NAME HERE]]</small></p>
+	    <!-- Your address -->
+	    <p class="text-center"><small>[[YOUR ADDRESS HERE]]</small></p>
+	  </columns>
+	</row>
+</container>

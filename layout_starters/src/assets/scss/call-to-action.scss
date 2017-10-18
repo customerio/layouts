@@ -1,0 +1,35 @@
+.header-logo {
+	width: 75px;
+}
+
+.call-to-action-btn {
+	th {
+		text-align: right;
+		a {
+			text-transform: uppercase;
+			font-weight: 700;
+		}
+	}
+}
+
+.container.footer {
+	background-color: #f3f3f3;
+
+	p {
+		margin-bottom: 5px;
+		Margin-bottom: 5px;
+	}
+
+	p.copyright {
+		font-style: italic;
+	}
+
+	a {
+		color: $black;
+
+		&:hover {
+			color: $primary-color;
+			cursor: pointer;
+		}
+	}
+}

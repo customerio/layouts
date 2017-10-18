@@ -1,0 +1,54 @@
+---
+subject: Call To Action
+---
+<container class="header">
+	<spacer size="18"></spacer>
+
+	<row>
+	  <columns small="6">
+	  	<!-- To add your logo image, modify the src here. -->
+      <img class="header-logo" src="http://userimg.customeriomail.com/pDClEpgR2mG7dwLF0DAF_logo.png">
+	  </columns>
+	  <columns class="call-to-action-btn" valign="middle" small="6">
+	  	<!-- make sure to add a link to your call to action! -->
+      <a href="#">Sign Up</a>
+	  </columns>
+	</row>
+</container>
+
+<container class="content">
+  <row>
+    <columns small="12">
+      <wrapper>
+      	<!-- We'll replace this content tag with whatever you write in your email -->
+        <img src="https://s3.amazonaws.com/fast.customer.io/email-templates/your_content_here.png">
+      </wrapper>
+    </columns>
+  </row>
+</container>
+
+<container class="footer">
+	<row>
+	  <columns>
+
+	    <spacer size="22"></spacer>
+
+	    <center>
+	      {{> social}}
+	    </center>
+
+	    <spacer size="20"></spacer>
+
+	    <p class="text-center"><small>If you no longer wish to receive emails from [[YOUR COMPANY NAME HERE]], you can unsubscribe <a class="untracked" href="{% unsubscribe_url %}">here</a>.</small></p>
+
+		  <spacer size="22"></spacer>
+
+		  <!-- Your copyright -->
+	    <p class="text-center copyright"><small>@2017 [[YOUR COMPANY NAME HERE]]</small></p>
+	    <!-- Your address -->
+	    <p class="text-center"><small>[[YOUR ADDRESS HERE]]</small>
+
+	    <spacer size="22"></spacer>
+	  </columns>
+	</row>
+</container>

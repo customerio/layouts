@@ -1,0 +1,28 @@
+h1 {
+	font-weight: 700;
+}
+
+table.body {
+	background-color: white;
+}
+
+.container.header {
+	background-color: #f3f3f3;
+}
+
+.container.content {
+	border: 1px solid #f3f3f3;
+}
+
+.container.footer {
+	background-color: #f3f3f3;
+
+	a {
+		color: $black;
+
+		&:hover {
+			color: $primary-color;
+			cursor: pointer;
+		}
+	}
+}

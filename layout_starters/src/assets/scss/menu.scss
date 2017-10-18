@@ -1,0 +1,46 @@
+.header {
+	img {
+		width: 75px;
+	}
+
+	table.main-menu {
+		text-transform: uppercase;
+		border-top: 1px solid $light-gray;
+		border-bottom: 1px solid $light-gray;
+
+		th.menu-item {
+			a {
+				color: $black;
+
+				&:hover {
+					color: $primary-color;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}
+
+.download-app {
+	border-top: 1px solid $light-gray;
+	border-bottom: 1px solid $light-gray;
+
+	th {
+		padding-bottom: 0px;
+	}
+
+	img {
+		width: 200px;
+	}
+}
+
+.footer {
+	p {
+		margin-bottom: 3px;
+		Margin-bottom: 3px;
+	}
+
+	p.copyright {
+		font-style: italic;
+	}
+}

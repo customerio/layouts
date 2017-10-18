@@ -1,0 +1,65 @@
+---
+subject: Announcement
+---
+<container class="header">
+	<spacer size="24"></spacer>
+
+	<row>
+	  <columns small="12">
+	    <center>
+	    	<!-- To add your logo image, modify the src here. -->
+	      <img src="http://userimg.customeriomail.com/pDClEpgR2mG7dwLF0DAF_logo.png">
+	    </center>
+	  </columns>
+	</row>
+
+
+  <row>
+    <columns small="12">
+    	<center>
+	    	<h1 class="text-center">Big company announcement!<br/>We have news!</h1>
+	    </center>
+    </columns>
+  </row>
+</container>
+
+<container class="content">
+	<spacer size="32"></spacer>
+  <row>
+    <columns small="12">
+      <wrapper>
+      	<!-- We'll replace this content tag with whatever you write in your email -->
+        <img src="https://s3.amazonaws.com/fast.customer.io/email-templates/your_content_here.png">
+      </wrapper>
+    </columns>
+  </row>
+  <spacer size="18"></spacer>
+</container>
+
+<container class="footer">
+	<row>
+	  <columns>
+
+	    <spacer size="22"></spacer>
+
+	    <center>
+	      {{> social}}
+	    </center>
+
+	    <spacer size="20"></spacer>
+
+	    <center>
+	    	<!-- make sure to add links to all your footer items! -->
+		    <a href="#">About</a> | <a href="#">Terms</a> | <a href="#">Contact</a>
+		  </center>
+
+		  <spacer size="5"></spacer>
+
+	    <p class="text-center"><small>@2017 [[YOUR COMPANY NAME HERE]], [[YOUR ADDRESS HERE]]</small></p>
+
+	    <spacer size="22"></spacer>
+
+	    <p class="text-center"><small>This email was sent to \{{customer.email}}. To no longer receive these emails, unsubscribe <a class="untracked" href="{% unsubscribe_url %}">here</a>.</small></p>
+	  </columns>
+	</row>
+</container>

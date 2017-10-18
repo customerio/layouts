@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width">
+    <!-- link to Foundation for Emails.  Removing or changing this link will break this layout.
+         Learn more about Foundation for Emails and customizing their settings here - https://foundation.zurb.com/emails/docs/ -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/foundation-emails/2.2.1/foundation-emails.min.css" rel="stylesheet">
+    <title>Announcement</title>
+    <style>
+        /*----------------------------------------------------------------------------------------
+       Override some of the 'Foundation for Emails' styles
+       -----------------------------------------------------------------------------------------*/
+      
+      /*------
+       COLORS
+      --------*/
+      /*To modify colors, replace all instances of the following hexadecimal color values as desired
+        If you're familiar with Foundation, the color variables in use are listed below*/
+        
+      /*$primary-color - Primary link color - #009d9b*/
+      /*$medium-gray - Footer text color - #969fa5*/
+      /*$black - Primary text color - #545d63*/
+      body,
+      table.body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p,
+      td,
+      th,
+      a {
+        color: #545d63; }
+
+      small {
+        color: #969fa5; }
+      
+      a {
+        color: #009d9b; }
+        a:hover {
+          color: #006a69; }
+        a:active {
+          color: #006a69; }
+        a:visited {
+          color: #009d9b; }
+          
+      /*------------
+       FONT FAMILY
+      ------------*/
+      /*Replace all instances of "Helvetica Neue" with a font of your choice*/
+      body,
+      table.body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p,
+      td,
+      th,
+      a {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      
+      table.button table td a {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      
+      /*------------------------
+      End Foundation Overrides
+      ------------------------*/
+      
+      /*---------------------------------------------------------------------------------
+        Layout customizations - These styles are specific to this Newsletter layout only.
+      -----------------------------------------------------------------------------------*/
+        h1 {
+          font-weight: 700; }
+        
+        table.body {
+          background-color: white; }
+        
+        .container.header {
+          background-color: #f3f3f3; }
+        
+        .container.content {
+          border: 1px solid #f3f3f3; }
+        
+        .container.footer {
+          background-color: #f3f3f3; }
+          .container.footer a {
+            color: #545d63; }
+            .container.footer a:hover {
+              color: #009d9b;
+              cursor: pointer; }
+        .social-icon {
+            width: 28px; 
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+    </style>
+    <!-- <style> -->
+  </head>
+  <body>
+    <span class="preheader"></span>
+    <table class="body">
+      <tr>
+        <td class="center" align="center" valign="top">
+          <center data-parsed="">
+            <table align="center" class="container header float-center"><tbody><tr><td>
+              <table class="spacer"><tbody><tr><td height="24px" style="font-size:24px;line-height:24px;">&#xA0;</td></tr></tbody></table> 
+            
+              <table class="row"><tbody><tr>
+                <th class="small-12 large-12 columns first last"><table><tr><th>
+                  <center data-parsed="">
+                    <!-- To add your logo image, modify the src here. -->
+                    <img src="http://userimg.customeriomail.com/pDClEpgR2mG7dwLF0DAF_logo.png" align="center" class="float-center">
+                  </center>
+                </th>
+<th class="expander"></th></tr></table></th>
+              </tr></tbody></table>
+            
+            
+              <table class="row"><tbody><tr>
+                <th class="small-12 large-12 columns first last"><table><tr><th>
+                  <center data-parsed="">
+                    <h1 class="text-center float-center" align="center">Big company announcement!<br>We have news!</h1>
+                  </center>
+                </th>
+<th class="expander"></th></tr></table></th>
+              </tr></tbody></table>
+            </td></tr></tbody></table>
+            
+            <table align="center" class="container content float-center"><tbody><tr><td>
+              <table class="spacer"><tbody><tr><td height="32px" style="font-size:32px;line-height:32px;">&#xA0;</td></tr></tbody></table> 
+              <table class="row"><tbody><tr>
+                <th class="small-12 large-12 columns first last"><table><tr><th>
+                  <table class="wrapper" align="center"><tr><td class="wrapper-inner">
+                    <!-- We'll replace this content tag with whatever you write in your email -->
+                    {{content}}
+                  </td></tr></table>
+                </th>
+<th class="expander"></th></tr></table></th>
+              </tr></tbody></table>
+              <table class="spacer"><tbody><tr><td height="18px" style="font-size:18px;line-height:18px;">&#xA0;</td></tr></tbody></table> 
+            </td></tr></tbody></table>
+            
+            <table align="center" class="container footer float-center"><tbody><tr><td>
+              <table class="row"><tbody><tr>
+                <th class="small-12 large-12 columns first last"><table><tr><th>
+            
+                  <table class="spacer"><tbody><tr><td height="22px" style="font-size:22px;line-height:22px;">&#xA0;</td></tr></tbody></table> 
+            
+                  <center data-parsed="">
+                    <table align="center" class="menu float-center"><tr><td><table><tr>
+                      <!-- change all social icons by modifying the src and make sure to add link destinations by replacing href="#"-->
+                      <th class="menu-item float-center"><a href="#"><img src="http://userimg.customeriomail.com/kXhQCuyTTqqTTzA2xXeH_twitter_28.png" alt="Twitter" class="social-icon" width="28"></a></th>    
+                      <th class="menu-item float-center"><a href="#"><img src="http://userimg.customeriomail.com/zeHphsmFRSejIiPmgmyi_facebook_28.png" alt="Facebook" class="social-icon" width="28"></a></th>    
+                      <th class="menu-item float-center"><a href="#"><img src="http://userimg.customeriomail.com/8cvnkFaiSEyLIgUh4fOi_linkedin_28.png" alt="LinkedIn" class="social-icon" width="28"></a></th>    
+                      <th class="menu-item float-center"><a href="#"><img src="http://userimg.customeriomail.com/ZqfuIlmKQROZqxeMTEtR_instagram_28.png" alt="Instagram" class="social-icon" width="28"></a></th>    
+                    </tr></table></td></tr></table>     </center>
+            
+                  <table class="spacer"><tbody><tr><td height="20px" style="font-size:20px;line-height:20px;">&#xA0;</td></tr></tbody></table> 
+            
+                  <center data-parsed="">
+                    <!-- make sure to add links to all your footer items! -->
+                    <a href="#" align="center" class="float-center">About</a> | <a href="#" align="center" class="float-center">Terms</a> | <a href="#" align="center" class="float-center">Contact</a>
+                  </center>
+            
+                  <table class="spacer"><tbody><tr><td height="5px" style="font-size:5px;line-height:5px;">&#xA0;</td></tr></tbody></table> 
+            
+                  <p class="text-center"><small>@2017 [[YOUR COMPANY NAME HERE]], [[YOUR ADDRESS HERE]]</small></p>
+            
+                  <table class="spacer"><tbody><tr><td height="22px" style="font-size:22px;line-height:22px;">&#xA0;</td></tr></tbody></table> 
+            
+                  <p class="text-center"><small>This email was sent to {{customer.email}}. To no longer receive these emails, unsubscribe <a class="untracked" href="{% unsubscribe_url %}">here</a>.</small></p>
+                </th>
+<th class="expander"></th></tr></table></th>
+              </tr></tbody></table>
+            </td></tr></tbody></table>
+            
+          </center>
+        </td>
+      </tr>
+    </table>
+    <!-- prevent Gmail on iOS font size manipulation -->
+   <div style="display:none; white-space:nowrap; font:15px courier; line-height:0;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div>
+  </body>
+</html>
