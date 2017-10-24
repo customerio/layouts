@@ -58,7 +58,16 @@ subject: Announcement
 	    <p class="text-center"><small>@2017 [[YOUR COMPANY NAME HERE]], [[YOUR ADDRESS HERE]]</small></p>
 
 	    <spacer size="22"></spacer>
-
+	    <!--
+        You can use the Customer.io unsubscribe link in all of your emails.
+        We are able to track the unsubscribe to the specific email they
+        unsubscribed from. You also have the option to include an unsubscribe
+        link in your email header. You always have the option of whether to send 
+        to unsubscribed users or not, but use that ability with caution. To learn more,
+        or if you want to handle unsubscribes yourself, please refer to the docs:
+        https://learn.customer.io/documentation/unsubscribes.html
+      -->
+      <!--to change the color of this link, find the COLORS section in the CSS overrides above! -->
 	    <p class="text-center"><small>This email was sent to \{{customer.email}}. To no longer receive these emails, unsubscribe <a class="untracked" href="{% unsubscribe_url %}">here</a>.</small></p>
 	  </columns>
 	</row>
