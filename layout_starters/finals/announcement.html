@@ -185,7 +185,18 @@
             
                   <table class="spacer"><tbody><tr><td height="22px" style="font-size:22px;line-height:22px;">&#xA0;</td></tr></tbody></table> 
             
-                  <p class="text-center"><small>This email was sent to {{customer.email}}. To no longer receive these emails, unsubscribe <a class="untracked" href="{% unsubscribe_url %}">here</a>.</small></p>
+                  <p class="text-center"><small>This email was sent to {{customer.email}}. To no longer receive these emails, unsubscribe 
+                  <!--
+                    You can use the Customer.io unsubscribe link in all of your emails.
+                    We are able to track the unsubscribe to the specific email they
+                    unsubscribed from. You also have the option to include an unsubscribe
+                    link in your email header. You always have the option of whether to send 
+                    to unsubscribed users or not, but use that ability with caution. To learn more,
+                    or if you want to handle unsubscribes yourself, please refer to the docs:
+                    https://learn.customer.io/documentation/unsubscribes.html
+                  -->
+                  <!--to change the color of this link, find the COLORS section in the CSS overrides above! -->
+                  <a class="untracked" href="{% unsubscribe_url %}">here</a>.</small></p>
                 </th>
 <th class="expander"></th></tr></table></th>
               </tr></tbody></table>
