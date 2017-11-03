@@ -90,7 +90,7 @@ To prepare an email for use in the app, follow these steps:
 ## **Testing**
 All layouts should be tested with Litmus.  The Litmus login is in 1Password.  Simply paste the HTML from the `layout_starters/finals` folder into Litmus and validate that everything appears consistently across all devices and email clients.  Any changes that need to be made in Litmus should be made to the original Inky files to ensure that they are propagated into future builds of the email.
 
-##**ui_api**
+## **ui_api**
 Once the email has been coded, built, tested, and modified to function with CIO, it needs to be added to ui_api as a starter.  To do this:
 - Copy the entire body to a new file in `ui_api/layouts/starter/<starter_name.go>`.
 - Add the new starter to the list of starters in `ui_api/layouts/starter/starters.go`.
